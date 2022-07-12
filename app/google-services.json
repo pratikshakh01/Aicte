@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434048821536",
+    "project_id": "aicte-80538",
+    "storage_bucket": "aicte-80538.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434048821536:android:9603a8ea6e452c6e834f45",
+        "android_client_info": {
+          "package_name": "com.example.aicte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434048821536-c6dmgh5cmortth8g0lpil5u7rp11pi1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Rs0UE--Hh76rKlBVwwJGfb1X1s_STvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434048821536-c6dmgh5cmortth8g0lpil5u7rp11pi1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

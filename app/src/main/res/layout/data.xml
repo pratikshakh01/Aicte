@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardCornerRadius="35dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="#F1DBD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="#F1DBD4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/sname"
+                android:layout_width="135dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/susn"
+                android:layout_width="135dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="32dp"
+                android:textColor="@color/black"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sname" />
+
+            <TextView
+                android:id="@+id/sbranch"
+                android:layout_width="135dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="32dp"
+                android:textColor="@color/black"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/susn" />
+
+            <TextView
+                android:id="@+id/spoints"
+                android:layout_width="135dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="32dp"
+
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sbranch" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="52dp"
+                android:backgroundTint="#BF3509"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName7" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:textColorHint="#B3B0B0"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:hint="Enter Points"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName7"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:hint="Remarks"
+                android:textColorHint="#B3B0B0"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="160dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="32dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spoints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

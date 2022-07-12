@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDC1B3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#BF3509"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="AICTE Activity Points Manager"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="#DD9A85"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Username"
+        android:layout_marginLeft="35dp"
+        android:textAlignment="center"
+        android:textColor="#BF3509"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="#BF3509"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="210dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="135dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#BF3509"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
